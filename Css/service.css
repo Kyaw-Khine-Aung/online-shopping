@@ -1,0 +1,81 @@
+body {
+    background-color: lightgray;
+}
+
+.service h1{
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 8rem;
+    font-size: 30px;
+}
+
+.service h1 span{
+    color: rgb(37, 238, 238);
+    text-transform: uppercase;
+}
+
+.service .container {
+    margin-bottom: 30px;
+}
+
+.service .container .image{
+    max-width: 1000px;
+    max-height: 400px;
+    overflow: hidden;
+    margin: auto;
+}
+
+.service .container .image img{
+    width: 100%;
+}
+
+.service .container .contant {
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    gap: 1.5rem;
+    margin-top: -40px;
+}
+
+.service .container .contant .contant-item div{
+    font-size: 20px;
+    color: #eee;
+    background-color: black;
+    padding: 7px 10px;
+    border-radius: 3px;
+    margin: -10px 0px 20px;
+}
+
+.service .container .contant .contant-item h3{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.service .container .contant .contant-item p{
+    color: #eee;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.service .container .contant .contant-item button{
+    border: 2px solid lightgray;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #eee;
+    background: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.service .container .contant .contant-item button:hover{
+    background-color: lightgray;
+    letter-spacing: 3px;
+}
+
+.service .container .contant .contant-item {
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(19, 236, 236);
+}

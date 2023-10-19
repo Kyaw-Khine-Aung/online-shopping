@@ -1,0 +1,59 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.home {
+    background-image: url("../image/home-image.jpg");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.home {
+    display: flex;
+    justify-items: center;
+}
+
+.home .contant { 
+    max-width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+.home .contant .contant-item h1 {
+    color: rgb(19, 236, 236);
+    line-height: 4rem;
+    font-size: 40px;
+}
+
+.home .contant .contant-item h2 {
+    color: yellow;
+    font-style: oblique;
+    font-size: 30px;
+}
+
+.home .contant .contant-item p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.home .contant .contant-item a {
+    color: #fff;
+    padding: 10px 15px;
+    background-color: rgb(19, 236, 236);
+    border-radius: 10px;
+}
+
+.home .contant .contant-item a:hover{
+    letter-spacing: 3px;
+}

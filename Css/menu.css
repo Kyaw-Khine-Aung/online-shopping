@@ -1,0 +1,71 @@
+body {
+    background-color: lightgray;
+}
+
+.meun {
+    margin-bottom: 20px;
+}
+
+.meun h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 8rem;
+    font-size: 30px;
+}
+
+.meun h1 span{
+    color: rgb(37, 238, 238);
+    text-transform: uppercase;
+}
+
+.meun .shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    justify-content: space-between;
+    
+}
+
+.meun .shop-container .imageContant{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(19, 236, 236);
+}
+
+.meun .shop-container .imageContant .contant h3{
+    color: #fff;
+    font-size: 15px;
+}
+
+.meun .shop-container .imageContant .contant p{
+    color: #eee;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.meun .shop-container .imageContant .contant p span{
+    font-size: 10px;
+    text-decoration: line-through;
+}
+
+.meun .shop-container .imageContant .photo {
+    margin-right: 20px;
+}
+
+.meun .shop-container .imageContant .photo img{
+    width: 5.9rem;
+    height: 4.5rem;
+}
+
+.meun .shop-container .imageContant .image{
+    width: 5.9rem;
+    height: 4.5rem;
+    margin-right: 15px;
+}
+
+.meun .shop-container .imageContant .image img{
+    width: 100%;
+}

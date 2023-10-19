@@ -1,0 +1,132 @@
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid lightgray;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: rgb(19, 236, 236);
+    position: sticky;
+    top: 0;
+}
+
+.navbar .image {
+    width: 60px;
+} 
+
+.navbar .image img {
+    width: 100%;
+    border-radius: 60%;
+}
+
+.navbar .search-box {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 15rem;
+    padding: 8px 8px;
+    border-radius: 15px;
+}
+
+.navbar .search-box .image {
+    width: 20px;
+    height: 20px;
+}
+
+.navbar .search-box img {
+    width: 100%;
+}
+
+.navbar .links a {
+    color: #fff;
+    margin-right: 5px;
+}
+
+.navbar .links a:hover {
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+.footer .footerItemContainer {
+    display: flex;
+    padding: 5rem;
+    background-color: rgb(19, 236, 236);
+    justify-content: space-between;
+}
+
+.footer .footerItemContainer .footerItem {
+    text-align: center;
+    width: 300px;
+}
+
+.footer .footerItemContainer .footerItem .title {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.footer .footerItemContainer .footerItem p{
+    font-size: 15px;
+    color: #eee;
+    line-height: 20px;
+    margin: 10px 0px 25px;
+}
+
+.footer .footerItemContainer .footerItem a{
+    border: 2px solid lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    color: #eee;
+}
+
+.footer .footerItemContainer .footerItem a:hover{
+    background-color: lightgrey;
+    letter-spacing: 3px;
+}
+
+.footer .footerItemContainer .footerItem .iconContainer i{
+    font-size: 25px;
+    cursor: pointer;
+    border: 2px solid lightgray;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: #eee;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.footer .footerItemContainer .footerItem .iconContainer i:hover{
+    background-color: lightgray;
+}
+
+.footer .footerItemContainerOne {
+    background-color: lightgray;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.footer .footerItemContainerOne div {
+    color: #eee;
+}
+
+.footer .footerItemContainerOne div span {
+    color:  rgb(34, 199, 199);
+    font-size: 20px;
+    font-weight: bold;
+}
